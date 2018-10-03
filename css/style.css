@@ -1,0 +1,399 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+@font-face {
+   font-family: 'Big John';
+   src: url('../fonts/big_john-webfont.eot');
+   src: url('../fonts/big_john-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/big_john-webfont.woff2') format('woff2'),
+        url('../fonts/big_john-webfont.woff') format('woff'),
+        url('../fonts/big_john-webfont.ttf') format('truetype'),
+        url('../fonts/big_john-webfont.svg#big_johnregular') format('svg');
+   font-weight: normal;
+   font-style: normal;
+}
+@font-face {
+   font-family: 'Slim Joe';
+   src: url('../fonts/slim_joe-webfont.eot');
+   src: url('../fonts/slim_joe-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/slim_joe-webfont.woff2') format('woff2'),
+        url('../fonts/slim_joe-webfont.woff') format('woff'),
+        url('../fonts/slim_joe-webfont.ttf') format('truetype'),
+        url('../fonts/slim_joe-webfont.svg#slim_joeregular') format('svg');
+   font-weight: normal;
+   font-style: normal;
+}
+
+.logo{
+	width: 174px;
+	height: 99px;
+	margin-left: 10%;
+	margin-top: 3%;
+
+}
+
+
+.nav{
+    float: right;
+	margin-top: 6%;
+	margin-right: 10%;
+	height:18px;
+	list-style: none;
+	font-family: Lato;
+	color:  #ffffff;
+	font-size: 16px;
+	font-weight: 700;
+	text-align: center;
+	display: inline;
+}
+.nav li{
+	text-align: center;
+	display: inline;
+	padding: 25px;
+}
+
+.titles{
+    margin-top:155px;
+	font-family: 'Big John';
+	color:  #ffffff;
+	font-size: 16px;
+	font-weight: 400;
+	text-align: center;
+
+}
+.titles span{
+
+	font-family: 'Slim Joe';
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: 400;
+	text-align: center;
+}
+.click{
+
+	text-align: center;
+}
+.click p{
+
+	display:inline-block;
+	font-family: Lato;
+	color:  #48bf72;
+	font-size: 14px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	line-height: 25px;/* Приближение из-за подстановки шрифтов */
+	text-align: center;
+	border: 1px solid #48bf72;
+	padding:5px;
+	width:135px;
+}
+
+.menu{
+     text-align: center;
+}
+.list{
+        padding-bottom:5px;
+        height: 32px;
+        font-family: Lato;
+        color:  #3c4955;
+        font-size: 16px;/* Приближение из-за подстановки шрифтов */
+        font-weight: 700;
+        text-align: center;
+		list-style: none;
+		display: inline;
+}
+
+.list .one{
+	background-color: #48bf72;
+	color:  #ffffff;
+}
+.list li{
+
+	margin-right: 1%;
+	text-align: center;
+	display: inline; /* Отображать как строчный элемент */
+	padding: 5px 10px 5px 10px;
+	border-radius: 2px;
+	background-color:  #eaeaea;
+}
+
+
+.foto1 img{
+
+		display: block;
+		    max-width: 100%;
+		    margin-top: 5%;
+}
+.foto1 .image1{
+	float:left;
+	margin-left: 10%;
+	max-height: 300px;
+}
+.foto1 .image2{
+	float: right;
+	margin-right: 10%;
+	max-height: 300px;
+}
+
+.foto2 img{
+
+		display: block;
+		    max-width: 100%;
+		    margin-top: 5%;
+		    margin-bottom: 5%;
+}
+.foto2 .image1{
+	float:left;
+	margin-left: 10%;
+	max-height: 430px;
+}
+.foto2 .image2{
+	float: right;
+	margin-right: 10%;
+	max-height: 430px;
+
+}
+.text{
+	clear:both;
+}
+
+.text h3{
+
+	margin-left:10%;
+	margin-right: 10%;
+	margin-top: 5%;
+	float: right;
+	width: 100%;
+	max-width: 410px;
+	font-family: Lato;
+	color:  #ffffff;
+	font-size: 30px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	line-height: 32px;/* Приближение из-за подстановки шрифтов */
+	text-align: left;
+
+}
+.text h3 span{
+	font-family: Lato;
+	color:  #ffffff;
+	font-size: 22px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+	line-height: 32px;/* Приближение из-за подстановки шрифтов */
+	text-align: left;
+
+}
+.text p{
+	font-family: Lato;
+	color:  #ffffff;
+	font-size: 16px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+	line-height: 25px;/* Приближение из-за подстановки шрифтов */
+	text-align: left;
+    clear:both;
+    float: right;
+    width: 100%;
+    max-width: 410px;
+    margin-right:10%;
+    margin-left:40%;
+
+}
+.cont{
+	clear: both;
+	float:right;
+	width: 100%;
+    max-width: 410px;
+	margin-right:10%;
+	margin-top:2%;
+	margin-bottom: 3%;
+	display: inline-block;
+
+
+}
+
+.cont p{
+	border: 2px solid #3c4955;
+	padding:5px;
+	max-width:134px;
+	font-family: Lato;
+	color:  #3c4955;
+	font-size: 14px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	line-height: 25px;/* Приближение из-за подстановки шрифтов */
+	text-align: center;
+    float:left;
+    margin-left: 0%;
+}
+
+.contact h4{
+	margin-top: 5%;
+	margin-bottom: 1%;
+font-family: Big John;
+color:  #48bf72;
+font-size: 26px;/* Приближение из-за подстановки шрифтов */
+font-weight: 400;
+line-height: 25px;/* Приближение из-за подстановки шрифтов */
+text-align: center;
+}
+
+.contact .subm{
+	text-align: center;
+	margin-bottom: 5%;
+}
+
+/*
+.input-container {
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+    max-width: 335px;
+    height: 50px;
+    border:8px;
+    border-radius: 4px;
+    font-family: Lato;
+    color:  #a6a5a5;
+    font-size: 16px;
+    line-height: 25px;/
+    text-align: left;
+    border:2px solid #3c4955;
+    background-color: #f1f1f1;
+    box-sizing: border-box;
+
+}
+.input-field {
+	max-width: 335px;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    box-sizing: border-box;}
+
+.icon {
+
+    background: #3c4955;
+    color: white;
+    width:100%;
+    max-width: 50px;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+
+}*/
+
+
+
+.user{
+  float: left;
+  margin-left: 24%;
+  margin-bottom: 2%;
+  margin-top: 1%;
+}
+.mail{
+	float:right;
+	margin-right: 24%;
+	margin-bottom: 2%;
+	margin-top: 1%;
+}
+
+input{
+   width: 100%;
+   max-width: 320px;
+   height: 50px;
+   border:8px;
+   border-radius: 4px;
+   font-family: Lato;
+   color:  #c1c0c0;
+   font-size: 16px;
+   font-weight: 700;
+   line-height: 25px;/
+   text-align: left;
+   border:2px solid #3c4955;
+   background-color: #f1f1f1;
+   padding-left:10px;
+ }
+
+ textarea{
+ 	width: 100%;
+ 	max-width: 680px;
+ 	height: 230px;
+ 	border-radius: 4px;
+ 	font-family: Lato;
+ 	color:  #c1c0c0;
+ 	font-size: 16px;/* Приближение из-за подстановки шрифтов */
+ 	font-weight: 700;
+ 	line-height: 25px;/* Приближение из-за подстановки шрифтов */
+ 	text-align: left;
+ 	border:2px solid #3c4955;
+ 	background-color: #f1f1f1;
+ 	padding-left:10px;
+ }
+
+ .mass{
+ 	clear:both;
+text-align: center;
+
+ }
+.contact_form button[type="submit"] {
+	display:inline-block;
+	clear:both;
+    background-color: #48bf72;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    font-family: Lato;
+    color:  #ffffff;
+    font-size: 14px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    width: 100%;
+    max-width:700px;
+    height: 50px;
+    margin-top: 2%;
+
+
+
+}
+
+
+
+footer p{
+	margin-left: 10%;
+	margin-top: 7%;
+	float:left;
+	font-family: Lato;
+	color:  #ffffff;
+	font-size: 16px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+	line-height: 25px;/* Приближение из-за подстановки шрифтов */
+	text-align: left;
+}
+footer p span{
+	font-weight: 700;
+
+}
+.svg{
+	float:right;
+	margin-right: 10%;
+
+	margin-top:4%;
+}
+footer ul{
+
+    list-style: none;
+   width: 316px;
+
+	}
+
+footer li{
+
+	list-style: none;
+	display: inline-block;
+margin-left: 8%;
+}
+
+
+
+
+
+
+
+
+
+
+
